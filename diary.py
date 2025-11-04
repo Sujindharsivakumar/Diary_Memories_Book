@@ -1,14 +1,3 @@
-"""
-MemoryBook Pro — Blue Themed Edition
-------------------------------------
-- Pleasant pastel blue UI
-- Login / Signup system
-- Image attachments and gallery view
-- Background customization
-- Proper deletion of selected entries
-- Animated page transitions
-Requires: customtkinter, pillow
-"""
 
 import customtkinter as ctk
 from tkinter import filedialog, messagebox, Toplevel
@@ -479,3 +468,4 @@ class MemoryBookPro(ctk.CTk):
 if __name__ == "__main__":
     app = MemoryBookPro()
     app.mainloop()
+
